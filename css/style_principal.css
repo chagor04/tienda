@@ -1,0 +1,174 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html, body{
+    width: 100%;
+    height: 100%;
+}
+.container{
+    width: 100%;
+    height: 100%;
+}
+.menu{
+    list-style: none;
+    width: 200vh;
+    height: 6vh;
+}
+li{
+    float: left;
+    text-align: center;
+    padding: 1.5vh 9vh;
+    font-size: 20px;
+}
+ul, a{
+    list-style-type: none;
+    text-decoration: none;
+    color: orange;
+}
+.derecha{
+    float: right;
+}
+.acerca_de{
+    width: 194vh;
+    height: 92vh;
+    background-image: linear-gradient(-225deg, #7085B6 0%, #87A7D9 50%, #DEF3F8 100%);  
+}
+.titulo{
+    text-align: center;
+    font-size: 6.5vh;
+}
+.parrafo{
+    width: 140vh;
+    padding-top: 10vh;
+    margin-left: 2vh;   
+}
+.parrafo p{
+    width: 100%;
+    height: 100%;
+    font-size: 4vh;
+    
+}
+.a{
+    width: 100%;
+    height: 100%;
+    overflow:scroll;
+}
+.carrusel{
+    width: 70vh;
+    padding-top: 10vh;
+}
+.carrusel111{
+    width: 70vh;
+    height: 50vh;
+    margin-top: 13vh;
+    margin-left: 2vh;
+}
+
+.a{
+    width: 193vh;
+    display: flex;
+    height: 82vh;
+}
+.tarjetas{
+    padding-left: 2vh;
+    padding-top: 2vh;
+}
+.card{
+    border: solid;
+    width: 40vh; 
+    height: 60vh;
+    padding-top: 2vh;
+    padding-left: 4.5vh;
+    box-shadow: 3px 3px 10px;
+}
+.card_title{
+    width: 100%;
+    height: 8%;
+    margin-bottom: 2vh;
+    font-size: 18px;
+}
+.card_image{
+    width: 30vh;
+    height: 20vh;
+    
+}
+.card_image img{
+    width: 100%;
+    height: 100%;
+}
+.card_description{
+    margin-top: 2vh;
+    width: 30vh;
+    height: 15vh;
+    font-size: 1.8vh;
+    overflow: scroll;
+}
+.btn_ayuda{
+    width: 15vh;
+    height: 5vh;
+    font-size: 3vh;
+    margin-top: 3vh;
+    margin-left: 7vh;
+}
+.btn_ayuda:hover{
+    background-color: rgba(116, 224, 224, 0.596);
+}
+.tarjetas{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap:wrap;
+}
+.container_card{
+    width: 100%;
+    height: 100%;
+}
+.modal{
+    width: 35%;
+    height: 70%;
+    background-color: white;
+    color: rgb(0, 0, 0);
+    position: relative;
+}
+
+.modal_close{
+    position: absolute;
+    cursor: pointer;
+    font-size: 32px;
+    right: 0;
+    padding-right: 15px;
+}
+.ventana_modal{
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.288);
+    position: fixed;
+    top: 0;
+    color: #fff;
+    display: none;
+    align-items: center;
+    justify-content: center;
+}
+::-webkit-scrollbar{
+    display: none;
+}
+.modal_contenido{
+    width: 100%;
+    height: 100%;
+}
+.card_price{
+    padding-left:35% ;
+    padding-top: 8%;
+    font-size: 20px;
+}
+.modal_contenido .card_boton{
+    display: flex;
+    margin-left: 0;
+}
+.btn_cancelar{
+    margin-left: 0;
+}
+.btn_comprar{
+    margin-left: 2vh;
+}
